@@ -104,7 +104,7 @@
     }
 }
 
-
+/* flex-section */
 .flex-section .left {
     width: 50%;
     margin-top: 100px;
@@ -213,7 +213,7 @@
 
 /* details*/
 .details {
-    margin: 300px 0px;
+    margin: 250px 0px;
     background-color: black;
     height: 600px;
 }
@@ -221,7 +221,7 @@
 .contactus h1 {
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 65px;
     font-weight: 800px;
     font-size: 70px;
 }
@@ -246,5 +246,36 @@
     margin-top: 15px;
     margin-left: 200px;
     width: 130px;
-    font-size: px;
+    font-size: 15px;
+}
+
+/* Media Queries*/
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .header{
+        flex-direction: column;
+        height: 160px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+
+}
+
+/*extra large screens */
+@media screen and (min-width:1201px) and (max-width:1270px){
+    .header{
+        min-width: 991px;
+        margin: 0px 21px;
+    }
+
+
 }
