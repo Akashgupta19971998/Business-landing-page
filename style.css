@@ -17,6 +17,7 @@
     width: 100%;
     height: 50px;
     z-index: 2;
+    border-bottom: 1px solid white;
 }
 
 .header .items {
